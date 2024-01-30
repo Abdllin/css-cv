@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(12, 11, 11);
+  color: rgb(9, 250, 9);
+  font: bold 16px "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.divine {
+  max-width: 800px;
+  margin: auto;
+}
+
+.naming label {
+  color: rgb(9, 250, 9);
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.naming input {
+  color: rgb(9, 250, 9);
+  border: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  width: 60%;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  font-family: inherit;
+  background: transparent;
+  font-style: italic;
+}
+
+.naming textarea {
+  color: rgb(9, 250, 9);
+  outline: none;
+  outline-color: rgb(9, 250, 9);
+  font-style: italic;
+  background: transparent;
+}
+
+.accepter input {
+  color: rgb(98, 211, 98);
+  margin-top: 8px;
+  border-color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.duble {
+  display: flex;
+}
+
+.duble > .naming {
+  width: 50%;
+}
